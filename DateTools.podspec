@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.osx.platform = :iox, '10.7'
   s.requires_arc = true
 
-  s.source_files = 'DateTools'
-  s.resources    = 'DateTools/DateTools.bundle'
+  s.source_files    = 'DateTools'
+  s.resource_bundle = 'DateTools/DateTools.bundle'
 end
